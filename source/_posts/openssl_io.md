@@ -220,7 +220,6 @@ void ssl_echo(SSL_CTX *ctx, int fd, int rw_timeout) {
 
     SSL_shutdown(ssl);
     SSL_free(ssl);
-    close(fd);
 }
 ```
 
